@@ -1,6 +1,8 @@
 # Reverse Community Mods
 Among Us modifications for [Reverse Community](https://reverse.community).
 
+![](https://cdn.reverse.community/images/server_banner.png)
+
 ## Release
 Build `Reverse Community Mods` solution.
 
