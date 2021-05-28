@@ -1,25 +1,9 @@
 #include <iostream>
 #include <filesystem>
-#include <fstream>
-#include <windows.h>
 
 int main()
 {
-	// Location of Among Us from Steam's registry. Fallbacks to current (working) dir.
-	std::filesystem::path path;
-
-	char steam_path[255]{};
-	unsigned long steam_path_size = sizeof(steam_path);
-	const auto steam_path_known = !static_cast<bool>(RegGetValueA(HKEY_LOCAL_MACHINE, "SOFTWARE\\Wow6432Node\\Valve\\Steam", "InstallPath", RRF_RT_REG_SZ, nullptr, &steam_path, &steam_path_size));
-
-	if (steam_path_known) [[likely]] {
-		path = steam_path;
-		path /= "steamapps/common/Among Us";
-		if (!std::filesystem::is_directory(path)) [[unlikely]]
-			goto fallback;
-	} else
-	fallback:
-		path = std::filesystem::current_path();
+	std::filesystem::path path {std::filesystem::current_path()};
 
 	auto success = true;
 	auto usefulness = false;
