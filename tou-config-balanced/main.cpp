@@ -52,6 +52,8 @@ Child
 90
 <color=#FF0000FF>Swooper</color>
 70
+<color=#FF0000FF>Assassin</color>
+90
 <color=#FFFF99FF>Torch</color>
 10
 <color=#808080FF>Diseased</color>
