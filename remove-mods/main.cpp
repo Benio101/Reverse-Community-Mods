@@ -8,7 +8,13 @@ int main()
 	auto success = true;
 	auto usefulness = false;
 
-	for (const auto& folder : std::vector<std::string>{"BepInEx", "mono", "TownOfImpostors_CustomHats", "TownOfImpostors_Data", "TheOtherHats"}) [[likely]]
+	for (const auto& folder : std::vector<std::string>{
+		"BepInEx",
+		"mono",
+		"TownOfImpostors_CustomHats",
+		"TownOfImpostors_Data",
+		"TheOtherHats"
+	}) [[likely]]
 		if (std::filesystem::is_directory(path / folder))
 			if (std::filesystem::remove_all(path / folder)) [[likely]] {
 				usefulness = true;
@@ -20,7 +26,14 @@ int main()
 		else
 			std::cout << "Folder \"" + folder + "\" nie istnieje." << std::endl;
 
-	for (const auto& folder : std::vector<std::string>{"doorstop_config.ini", "winhttp.dll", "patch.bat", "config-tou.bat", "usun-mody.bat"}) [[likely]]
+	for (const auto& folder : std::vector<std::string>{
+		"doorstop_config.ini",
+		"steam_appid.txt",
+		"winhttp.dll",
+		"remove-mods.exe",
+		"tou-config-balanced.exe",
+		"tou-config-basic.exe",
+	}) [[likely]]
 		if (std::filesystem::is_regular_file(path / folder))
 			if (std::filesystem::remove(path / folder)) [[likely]] {
 				usefulness = true;
