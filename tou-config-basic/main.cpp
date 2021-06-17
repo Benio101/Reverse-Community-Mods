@@ -187,7 +187,15 @@ Mine Cooldown
 Swoop Cooldown
 30
 Swoop Duration
-10)";
+10
+Number of Assassin Kills
+3
+Assassin can Guess "Crewmate"
+True
+Assassin can Guess Neutral roles
+True
+Assassin can kill more than once per meeting
+False)";
 		file.close();
 	} catch (const std::ios_base::failure& fail) {
 		std::cerr << "Nie udało się zapisać ustawień podstawowych na slocie 1." << std::endl;

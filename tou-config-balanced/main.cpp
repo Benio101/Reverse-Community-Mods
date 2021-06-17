@@ -53,7 +53,7 @@ Child
 <color=#FF0000FF>Swooper</color>
 70
 <color=#FF0000FF>Assassin</color>
-90
+80
 <color=#FFFF99FF>Torch</color>
 10
 <color=#808080FF>Diseased</color>
@@ -187,7 +187,15 @@ Mine Cooldown
 Swoop Cooldown
 30
 Swoop Duration
-10)";
+10
+Number of Assassin Kills
+3
+Assassin can Guess "Crewmate"
+True
+Assassin can Guess Neutral roles
+True
+Assassin can kill more than once per meeting
+True)";
 		file.close();
 	} catch (const std::ios_base::failure& fail) {
 		std::cerr << "Nie udało się zapisać ustawień zbalansowanych na slocie 2." << std::endl;
