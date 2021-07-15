@@ -24,8 +24,6 @@ int main()
 40
 <color=#FFCC80FF>Seer</color>
 20
-Child
-0
 <color=#CCA3CCFF>Spy</color>
 30
 <color=#D4AF37FF>Snitch</color>
@@ -42,6 +40,8 @@ Child
 60
 <color=#FF4D00FF>Arsonist</color>
 30
+<color=#662962>Phantom</color>
+40
 <color=#FF0000FF>Janitor</color>
 50
 <color=#FF0000FF>Morphling</color>
@@ -52,8 +52,12 @@ Child
 60
 <color=#FF0000FF>Swooper</color>
 30
+<color=#FF0000FF>Undertaker</color>
+70
 <color=#FF0000FF>Assassin</color>
 50
+<color=#FF0000FF>Underdog</color>
+40
 <color=#FFFF99FF>Torch</color>
 10
 <color=#808080FF>Diseased</color>
@@ -146,6 +150,8 @@ Neutrals show up as Impostors
 True
 Snitch knows who they are on Game Start
 False
+Snitch sees neutral roles
+False
 Altruist Revive Duration
 5
 Target's body disappears on beginning of revive
@@ -188,6 +194,8 @@ Swoop Cooldown
 30
 Swoop Duration
 10
+Drag Cooldown
+25
 Number of Assassin Kills
 3
 Assassin can Guess "Crewmate"
