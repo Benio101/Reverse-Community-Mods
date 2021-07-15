@@ -151,7 +151,7 @@ True
 Snitch knows who they are on Game Start
 False
 Snitch sees neutral roles
-False
+True
 Altruist Revive Duration
 3
 Target's body disappears on beginning of revive
