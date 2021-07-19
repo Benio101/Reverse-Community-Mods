@@ -1,7 +1,7 @@
 # Reverse Community Mods
 Among Us modifications for [Reverse Community](https://reverse.community).
 
-![](https://raw.githubusercontent.com/Benio101/ReverseModPacks/resources/epic_reverse_logo.png)
+![](https://raw.githubusercontent.com/Benio101/ReverseModPacks/master/resources/epic_reverse_logo.png)
 
 ## Release
 Build `Reverse Community Mods` solution.
