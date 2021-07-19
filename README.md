@@ -19,8 +19,6 @@ Build `Reverse Community Mods` solution.
    - `remove-region.exe`
    - `tou-config-balanced.exe`
    - `tou-config-basic.exe`
-1. Copy the following files to `TownOfUs … Reverse/BepInEx/plugins/`:
-   - `CrowdedMod … .dll`
 1. Zip `TownOfUs … Reverse/`.
 
 ### TownOfImpostors
@@ -30,9 +28,6 @@ Build `Reverse Community Mods` solution.
    - `add-region.exe`
    - `remove-mods.exe`
    - `remove-region.exe`
-1. Copy the following files to `TownOfImpostors … Reverse/BepInEx/plugins/`:
-   - `Reactor … .dll`
-   - `CrowdedMod … .dll`
 1. Zip `TownOfImpostors … Reverse/`.
 
 ### TheOtherRoles
@@ -42,7 +37,4 @@ Build `Reverse Community Mods` solution.
    - `add-region.exe`
    - `remove-mods.exe`
    - `remove-region.exe`
-1. Copy the following files to `TheOtherRoles … Reverse/BepInEx/plugins/`:
-   - `Reactor … .dll`
-   - `CrowdedMod … .dll`
 1. Zip `TheOtherRoles … Reverse/`.
