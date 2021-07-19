@@ -14,9 +14,7 @@ Build `Reverse Community Mods` solution.
 1. Download the latest release of the [TownOfUs](https://github.com/slushiegoose/Town-Of-Us/releases) (a `.zip` file).
 1. Unzip downloaded `.zip` file to the `TownOfUs … Reverse/` folder.
 1. Copy the following files from `Reverse Community Mods/x64/Release/` to `TownOfUs … Reverse/`:
-   - `add-region.exe`
    - `remove-mods.exe`
-   - `remove-region.exe`
    - `tou-config-balanced.exe`
    - `tou-config-basic.exe`
 1. Zip `TownOfUs … Reverse/`.
@@ -25,16 +23,12 @@ Build `Reverse Community Mods` solution.
 1. Download the latest release of the [TownOfImpostors](https://github.com/Town-of-Impostors/TownOfImpostors/releases) (a `.zip` file).
 1. Unzip downloaded `.zip` file to the `TownOfImpostors … Reverse/` folder.
 1. Copy the following files from `Reverse Community Mods/x64/Release/` to `TownOfImpostors … Reverse/`:
-   - `add-region.exe`
    - `remove-mods.exe`
-   - `remove-region.exe`
 1. Zip `TownOfImpostors … Reverse/`.
 
 ### TheOtherRoles
 1. Download the latest release of the [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles/releases) (a `.zip` file).
 1. Unzip downloaded `.zip` file to the `TheOtherRoles … Reverse/` folder.
 1. Copy the following files from `Reverse Community Mods/x64/Release/` to `TheOtherRoles … Reverse/`:
-   - `add-region.exe`
    - `remove-mods.exe`
-   - `remove-region.exe`
 1. Zip `TheOtherRoles … Reverse/`.
